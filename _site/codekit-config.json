@@ -51,16 +51,16 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/_site\/img\/design\/sp1.jpg" : {
+    "\/_site\/img\/mags.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/img\/design\/sp1.jpg",
+      "inputAbbreviatedPath" : "\/_site\/img\/mags.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/_site\/img\/design\/sp1.jpg",
-      "initialSize" : 95851,
-      "fileType" : 4096
+      "outputAbbreviatedPath" : "\/_site\/img\/mags.png",
+      "initialSize" : 285805,
+      "fileType" : 8192
     },
     "\/sass\/screen.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -74,17 +74,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/_site\/img\/mags.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/img\/mags.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/_site\/img\/mags.png",
-      "initialSize" : 285805,
-      "fileType" : 8192
-    },
     "\/_site\/reading\/power.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -93,15 +82,6 @@
       "inputAbbreviatedPath" : "\/_site\/reading\/power.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
-    },
-    "\/_site\/stylesheets\/mixins.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/stylesheets\/mixins.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
     },
     "\/_site\/img\/design\/feelday3.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -112,6 +92,26 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/_site\/img\/design\/feelday3.jpg",
       "initialSize" : 29126,
+      "fileType" : 4096
+    },
+    "\/_site\/stylesheets\/mixins.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/stylesheets\/mixins.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/_site\/img\/design\/sp1.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/img\/design\/sp1.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/_site\/img\/design\/sp1.jpg",
+      "initialSize" : 95851,
       "fileType" : 4096
     },
     "\/bio.html" : {
@@ -426,15 +426,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/_site\/writing\/2013\/05\/27\/on-atriums-and-frame-crashing.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/writing\/2013\/05\/27\/on-atriums-and-frame-crashing.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/stylesheets\/print.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -745,21 +736,21 @@
       "initialSize" : 11111,
       "fileType" : 4096
     },
-    "\/_site\/making\/measures\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/making\/measures\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/_includes\/interestingtags.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_includes\/interestingtags.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_site\/making\/measures\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/making\/measures\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -968,6 +959,15 @@
       "initialSize" : 35155,
       "fileType" : 8192
     },
+    "\/stylesheets\/screen2.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/stylesheets\/screen2.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
     "\/making\/snarkmarket\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -999,15 +999,6 @@
       "initialSize" : 4369,
       "fileType" : 8192
     },
-    "\/reading\/design.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/reading\/design.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/reading\/archival.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1028,14 +1019,14 @@
       "initialSize" : 162390,
       "fileType" : 4096
     },
-    "\/stylesheets\/screen2.css" : {
+    "\/reading\/design.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/stylesheets\/screen2.css",
+      "inputAbbreviatedPath" : "\/reading\/design.html",
       "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "fileType" : 2048
     },
     "\/img\/serve1.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -1190,17 +1181,6 @@
       "initialSize" : 180,
       "fileType" : 8192
     },
-    "\/img\/design\/signal1.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/design\/signal1.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/design\/signal1.jpg",
-      "initialSize" : 120106,
-      "fileType" : 4096
-    },
     "\/img\/posts\/tagging1.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1211,6 +1191,15 @@
       "outputAbbreviatedPath" : "\/img\/posts\/tagging1.png",
       "initialSize" : 14399,
       "fileType" : 8192
+    },
+    "\/_site\/designing.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/designing.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/making\/darkmatter\/css\/base\/images\/ui-icons_888888_256x240.png" : {
       "ignoreWasSetByUser" : 0,
@@ -1223,14 +1212,16 @@
       "initialSize" : 4369,
       "fileType" : 8192
     },
-    "\/_site\/designing.html" : {
+    "\/img\/design\/signal1.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/designing.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/img\/design\/signal1.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/design\/signal1.jpg",
+      "initialSize" : 120106,
+      "fileType" : 4096
     },
     "\/_site\/making\/darkmatter\/css\/screen.css" : {
       "ignoreWasSetByUser" : 0,
@@ -1561,16 +1552,14 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/_site\/img\/codex-large.jpg" : {
+    "\/_site\/writing\/2012\/08\/18\/contents-tailoring.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/img\/codex-large.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/_site\/img\/codex-large.jpg",
-      "initialSize" : 85698,
-      "fileType" : 4096
+      "inputAbbreviatedPath" : "\/_site\/writing\/2012\/08\/18\/contents-tailoring.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/img\/design\/feelday1.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -1583,14 +1572,16 @@
       "initialSize" : 238956,
       "fileType" : 4096
     },
-    "\/_site\/writing\/2012\/08\/18\/contents-tailoring.html" : {
+    "\/_site\/img\/codex-large.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/writing\/2012\/08\/18\/contents-tailoring.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/_site\/img\/codex-large.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/_site\/img\/codex-large.jpg",
+      "initialSize" : 85698,
+      "fileType" : 4096
     },
     "\/_site\/img\/contents-small1.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -1725,17 +1716,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/making\/darkmatter\/css\/base\/images\/ui-bg_glass_75_e6e6e6_1x400.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/making\/darkmatter\/css\/base\/images\/ui-bg_glass_75_e6e6e6_1x400.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/making\/darkmatter\/css\/base\/images\/ui-bg_glass_75_e6e6e6_1x400.png",
-      "initialSize" : 110,
-      "fileType" : 8192
-    },
     "\/making\/darkmatter\/css\/base\/images\/ui-bg_glass_75_dadada_1x400.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1745,6 +1725,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/making\/darkmatter\/css\/base\/images\/ui-bg_glass_75_dadada_1x400.png",
       "initialSize" : 111,
+      "fileType" : 8192
+    },
+    "\/making\/darkmatter\/css\/base\/images\/ui-bg_glass_75_e6e6e6_1x400.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/making\/darkmatter\/css\/base\/images\/ui-bg_glass_75_e6e6e6_1x400.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/making\/darkmatter\/css\/base\/images\/ui-bg_glass_75_e6e6e6_1x400.png",
+      "initialSize" : 110,
       "fileType" : 8192
     },
     "\/_site\/making\/darkmatter\/css\/base\/images\/ui-icons_454545_256x240.png" : {
@@ -1780,29 +1771,6 @@
       "initialSize" : 22974,
       "fileType" : 4096
     },
-    "\/_site\/sass\/print.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/sass\/print.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/_site\/spreadsheets\/print.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/img\/making\/dragspace.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/making\/dragspace.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/making\/dragspace.png",
-      "initialSize" : 315303,
-      "fileType" : 8192
-    },
     "\/_site\/img\/thinking\/sketch-peter.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1814,17 +1782,16 @@
       "initialSize" : 52595,
       "fileType" : 4096
     },
-    "\/_site\/sass\/grid.scss" : {
+    "\/img\/making\/dragspace.png" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/sass\/grid.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/_site\/spreadsheets\/grid.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/img\/making\/dragspace.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/making\/dragspace.png",
+      "initialSize" : 315303,
+      "fileType" : 8192
     },
     "\/img\/thinking\/sketch-allen.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -2157,18 +2124,6 @@
       "initialSize" : 29126,
       "fileType" : 4096
     },
-    "\/_site\/sass\/screen.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/sass\/screen.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/_site\/spreadsheets\/screen.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/_site\/making\/gloss-v2\/gloss.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2240,15 +2195,6 @@
       "outputAbbreviatedPath" : "\/making\/gloss\/sf-ck.js",
       "fileType" : 64
     },
-    "\/_site\/styleguide.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/styleguide.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/making\/darkmatter\/css\/base\/images\/ui-bg_glass_55_fbf9ee_1x400.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2259,6 +2205,15 @@
       "outputAbbreviatedPath" : "\/making\/darkmatter\/css\/base\/images\/ui-bg_glass_55_fbf9ee_1x400.png",
       "initialSize" : 120,
       "fileType" : 8192
+    },
+    "\/_site\/styleguide.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/styleguide.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/_site\/img\/design\/feelday1.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -2271,6 +2226,15 @@
       "initialSize" : 238956,
       "fileType" : 4096
     },
+    "\/_site\/spreadsheets\/screen.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/spreadsheets\/screen.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
     "\/_site\/img\/design\/serve2.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2281,15 +2245,6 @@
       "outputAbbreviatedPath" : "\/_site\/img\/design\/serve2.png",
       "initialSize" : 116417,
       "fileType" : 8192
-    },
-    "\/_site\/spreadsheets\/screen.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/spreadsheets\/screen.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
     },
     "\/making\/gloss\/gloss.css" : {
       "ignoreWasSetByUser" : 0,
@@ -2319,18 +2274,6 @@
       "inputAbbreviatedPath" : "\/_site\/writing\/2012\/01\/17\/sensemaking.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
-    },
-    "\/_site\/sass\/styleguide.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/sass\/styleguide.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/_site\/spreadsheets\/styleguide.css",
-      "fileType" : 4,
-      "debugStyle" : 0
     },
     "\/img\/thinking\/future.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -2381,15 +2324,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/_site\/reading\/games.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/reading\/games.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/_site\/img\/posts\/tagging1.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2412,12 +2346,12 @@
       "initialSize" : 119,
       "fileType" : 8192
     },
-    "\/reading\/storytelling.html" : {
+    "\/_site\/reading\/games.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/reading\/storytelling.html",
+      "inputAbbreviatedPath" : "\/_site\/reading\/games.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -2429,6 +2363,15 @@
       "inputAbbreviatedPath" : "\/making\/darkmatter\/css\/base\/jquery.ui.all.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
+    },
+    "\/reading\/storytelling.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/reading\/storytelling.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/img\/design\/feelday4.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -2463,16 +2406,16 @@
       "initialSize" : 22974,
       "fileType" : 4096
     },
-    "\/img\/design\/signal2.png" : {
+    "\/_site\/img\/signal1.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/design\/signal2.png",
+      "inputAbbreviatedPath" : "\/_site\/img\/signal1.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/design\/signal2.png",
-      "initialSize" : 102274,
-      "fileType" : 8192
+      "outputAbbreviatedPath" : "\/_site\/img\/signal1.jpg",
+      "initialSize" : 12124,
+      "fileType" : 4096
     },
     "\/img\/making\/muse.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -2485,16 +2428,16 @@
       "initialSize" : 150849,
       "fileType" : 4096
     },
-    "\/_site\/img\/signal1.jpg" : {
+    "\/img\/design\/signal2.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/img\/signal1.jpg",
+      "inputAbbreviatedPath" : "\/img\/design\/signal2.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/_site\/img\/signal1.jpg",
-      "initialSize" : 12124,
-      "fileType" : 4096
+      "outputAbbreviatedPath" : "\/img\/design\/signal2.png",
+      "initialSize" : 102274,
+      "fileType" : 8192
     },
     "\/_site\/img\/design\/feelday2.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -2522,15 +2465,6 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_site\/reading\/publishing.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/_site\/writing\/2013\/05\/24\/stakes-and-scrying.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/writing\/2013\/05\/24\/stakes-and-scrying.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -2618,18 +2552,6 @@
       "initialSize" : 46850,
       "fileType" : 8192
     },
-    "\/_site\/sass\/ie.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/sass\/ie.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/_site\/spreadsheets\/ie.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/_site\/writing\/2012\/05\/10\/Kai-Brach-interview.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2638,18 +2560,6 @@
       "inputAbbreviatedPath" : "\/_site\/writing\/2012\/05\/10\/Kai-Brach-interview.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
-    },
-    "\/_site\/sass\/config.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/sass\/config.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/_site\/spreadsheets\/config.css",
-      "fileType" : 4,
-      "debugStyle" : 0
     },
     "\/_site\/making\/darkmatter\/img\/pod.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -2673,6 +2583,15 @@
       "initialSize" : 11938,
       "fileType" : 4096
     },
+    "\/spreadsheets\/screen.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/spreadsheets\/screen.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
     "\/making\/darkmatter\/img\/flip.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2683,15 +2602,6 @@
       "outputAbbreviatedPath" : "\/making\/darkmatter\/img\/flip.jpg",
       "initialSize" : 33833,
       "fileType" : 4096
-    },
-    "\/spreadsheets\/screen.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/spreadsheets\/screen.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
     },
     "\/designing.html" : {
       "ignoreWasSetByUser" : 0,

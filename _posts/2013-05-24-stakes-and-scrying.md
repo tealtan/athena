@@ -2,8 +2,8 @@
 layout: article
 page-title: Stakes and Scrying – Allen Tan is…writing
 title: Stakes and Scrying
+published: true
 ---
-
 Form-making gets a lot of attention today.
 
 New forms are what people talk about. They win awards, clients, money, and the praise of your peers. Then they begin to be reused, adapted, and become a shorthand for certain kinds of storytelling. Our collective attention privileges the *thing*.

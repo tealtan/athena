@@ -1,1 +1,2 @@
 exclude:      ['sass/']
+permalink: /writing/:year/:month/:day/:title
