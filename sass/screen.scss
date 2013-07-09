@@ -1,0 +1,999 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+
+@import "config";
+@import "grid";
+
+body {
+  background-color: $bgcolor;
+  @include transition(background-color 1s ease);
+  @media screen and (max-width: 1100px) { -webkit-text-size-adjust:70%; }
+  @media screen and (max-width: 500px) { -webkit-text-size-adjust:100%; }
+}
+
+body.frenchpaper {
+  background-color: $frenchpaper;
+  @include transition(background-color 1s ease);
+}
+
+/* Header */
+
+header {
+  @include padding(0px $gutter); @media screen and (max-width: 500px) { @include padding(0px $smallgutter); }
+  @include verbs-styling;
+  
+  h1 {
+    float: left;
+  }
+  
+  ul {
+    float: right;
+    margin-top: 5px;
+    
+    font-family: "elena-web-basic", Helvetica, sans-serif;
+    font-size: px(18);
+    color: $dark-ash;
+  }
+
+  li {
+    color: $ash;
+    a { color: $dark-ash; }
+    a:hover { color: $inky; text-decoration: underline; }
+  }
+  
+}
+
+hr {
+  border-color: $light-ash;
+
+  border-left: 0px;
+  border-right: 0px;
+  border-style: solid;
+  -webkit-margin-before: 0.8em;
+  -webkit-margin-after: 0.8em;
+}
+
+.page {
+  position: relative;
+  max-width: 100%;
+  margin: 0 auto;
+  width: px(1100);
+  @include padding(50px);
+  @media screen and (max-width: 1100px) { @include padding(10px); width: 100%; }
+  
+  background-color: none;
+}
+
+/* Home */
+
+#home {
+  position: relative;
+  max-width: 100%;
+  margin: 0 auto;
+  width: px(1100); 
+  @include padding(50px);
+  @media screen and (max-width: 1100px) { @include padding(10px); width: 100%; }
+  
+  background-color: none;
+  
+  color: $textcolor;
+  
+  @include verbs-styling;
+  
+  h1 {
+    float: left;
+    @include region(1/5); @media screen and (max-width: 1010px) { @include region(1); }
+    margin-bottom: px(10);
+  }
+  
+  hr {
+    @include region(4/5);
+    -webkit-margin-before: 0.8em;
+    -webkit-margin-after: 0.8em;
+    
+    @media screen and (max-width: 1010px) { 
+      float: none;
+      @include region(1);
+    }
+  }
+  
+  #left-wing, #right-wing { float: left; @include region(1/5); min-height: px(50); position: relative; }
+  #left-wing, #right-wing { @media screen and (max-width: 980px) { height: 0px; overflow: hidden; opacity: 0; } }
+  #right-wing { margin-left: -$gutter; padding-left: 1%; box-sizing: border-box; }
+  
+  ul {
+    @include region(3/5);
+    float: left;
+    margin: px(50) auto px(65) auto; @media screen and (max-width: 500px) { margin: px(10) auto; }
+    text-align: center;
+    
+    font-size: px(53); @media screen and (max-width: 350px) { font-size: px(28); }
+    font-weight: 100;
+    
+    li {
+      a#designing     { color: $cerulean; font-family: "elena-web-basic", Helvetica, serif; font-style: italic; font-weight: 700; }
+      a#editing       { color: $pepperjack; font-family: "elena-web-basic", Helvetica, serif; font-style: italic; font-weight: 700; }
+      
+      a:hover#thinking  { 
+        color: $stormy;
+        @include transition(color 0.3s ease);
+      }
+      
+      a:hover#reading  { 
+        color: $inky;
+        background: $sunshine;
+        
+        @include transition(color 0.3s ease);
+      }
+      
+      a:hover#collecting  { 
+        font-style: italic;
+        font-weight: 100;
+      }
+      
+      a:hover#designing {
+        text-decoration: underline;
+      }
+      
+      a:hover#editing {
+        background-color: rgba(255,255,255,0.75);
+        text-decoration: underline;
+      }
+      
+      a:hover#writing  {
+        font-family: "elena-web-basic";
+        font-weight: 100;
+        font-size: px(48);
+        color: $inky;
+      }
+      
+      a:hover#making  { 
+        color: #e5e5e5;
+        background: url('/img/line3.gif') repeat-x; 
+        background-position: 0% 50%;
+        
+        @include transition(color 0.3s ease);
+      }
+      
+      @media screen and (max-width: 500px) { text-align: center; }
+      
+    }
+  }
+  
+  p {
+    font-family: "elena-web-basic", Helvetica, serif;
+    font-size: px(20);
+    line-height: 1.3;
+    
+    a {
+      text-decoration: none;
+      color: #ccc;
+      
+      font-size: px(21);
+      font-style: italic;
+    }
+  }
+  
+  /* Pinboard styling */
+  #pinboard-highlights {
+    position: absolute;
+    top: px(27);
+    
+    .pin-item br { display: none; }
+    hr { width: 100%; }
+    
+    h3 {
+      font-family: "etica", Helvetica, sans-serif;
+      font-size: px(12);
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: 2px;
+      color: $inky;
+      float: left;
+    }
+    
+    #view-highlights {
+      font-family: "etica", Helvetica, sans-serif;
+      font-size: px(13);
+      font-weight: 100;
+      font-style: italic;
+      color: $inky;
+      background-color: $sunshine;
+      text-decoration: none;
+      text-align: right;
+      float: right;
+    }
+    
+    p {
+      width: 100%;
+      
+      text-align: left;
+      line-height: 0.75; 
+      margin-top: 0.75em;
+      /*max-height: px(173);
+      overflow: hidden;*/
+      
+      a { font-style: normal; }
+    }
+    .pin-title {
+      display: block;
+      font-family: "etica", Helvetica, sans-serif;
+      font-weight: 100;
+      font-size: px(14);
+      line-height: 1.3;
+      color: $inky;
+      @include transition(all 0.2s linear);
+      }
+      .pin-title:hover { background-color: $wisp; color: $obsidian; @include transition(all 0.2s linear); }
+      
+    .pin-description, blockquote {
+      display: none;
+      /* 
+      display: inline;
+      font-family: "etica", Helvetica, sans-serif;
+      font-size: px(13);
+      line-height: 1.3;
+      color: $inky;
+      background-color: $sunshine; 
+      */
+      }
+      
+    .pin-tag {
+      font-family: "etica", Helvetica, sans-serif;
+      font-size: px(12);
+      font-weight: 100;
+      color: $ash;
+      word-spacing: 4px;
+      text-decoration: none;
+      @include transition(all 0.2s linear);
+      } 
+      .pin-tag:hover { color: $pepperjack; @include transition(all 0.2s linear); }
+  }
+  
+  /* Designing */
+  
+  #recent-work {
+    position: absolute;
+    top: px(27);
+    h3 {
+      font-family: "etica", Helvetica, sans-serif;
+      font-size: px(12);
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: 2px;
+      color: $inky;
+      float: left;
+    }
+    
+    #view-work:hover { text-decoration: underline; }
+    #view-work {
+      font-family: "etica", Helvetica, sans-serif;
+      font-size: px(13);
+      font-weight: 100;
+      font-style: italic;
+      color: $cerulean;
+      text-decoration: none;
+      text-align: right;
+      letter-spacing: 0px;
+      text-transform: none;
+    }
+    
+    img {
+      width: 100%;
+      margin: px(15) 0 px(5) 0;
+      box-shadow: 0 0 3px $dark-ash;
+    }
+    a { 
+      color: $cerulean;
+      text-decoration: none;
+      font-family: "etica", Helvetica, sans-serif;
+      font-size: px(12);
+    }
+    a:hover { text-decoration: underline; }
+  }
+  
+  /* Assistant-editing styling */
+  
+  #assistant-editing-pic {
+    position: absolute;
+    top: 0px;
+    opacity: 1;
+    z-index: -1;
+    width: 500%;
+    margin-left: 0%;
+  }
+  
+  #assistant-editing {
+    position: absolute;
+    width: 500%;
+    
+    z-index: 1;
+    
+    #contents, #codex {
+      position: absolute;
+      top: px(330);
+      width: 42%;
+      font-size: px(14);
+      background-color: $smoke;
+      padding: 5px;
+      text-align: center;
+      z-index: 1;
+    }
+    
+    a { 
+      text-decoration: none;
+      @include transition(color 0.3s ease);
+      p { color: $inky; }
+    }
+    
+    a:hover #contents, a:hover #codex { color: $pepperjack; @include transition(color 0.3s ease); }
+    
+    #contents { left: 4%; }
+    #codex { right: 4%; }
+    strong { font-weight: 700; }
+    em { font-style: italic; }
+  }
+  
+  /* Making styling */
+  #in-progress {
+    width: 100%;
+    margin-top: px(210);
+    margin-left: px(0);
+    
+    font-size: px(12);
+    font-family: "etica", Helvetica, sans-serif;
+    text-align: left;
+    color: $inky;
+  }
+}
+
+footer {
+  @include padding(0px $gutter); @media screen and (max-width: 500px) { @include padding(0px $smallgutter); }
+  hr {
+    @include region(4/5);
+    float: left;
+    @media screen and (max-width: 1010px) { 
+      float: none;
+      @include region(1);
+    }
+  }
+  
+  p {
+    font-family: "elena-web-basic", Helvetica, serif;
+    font-size: px(20); @media screen and (max-width: 500px) { font-size: px(25); }
+    text-align: right;
+    line-height: 1.3;
+    
+    @include region(1/5);
+    float: left;
+    @media screen and (max-width: 1010px) { 
+      float: none;
+      @include region(1);
+    }
+    
+    a {
+      text-decoration: none;
+      color: #ccc;
+      
+      font-size: px(21);
+      font-style: italic;
+      @include transition(color 0.3s ease);
+    }
+    a:hover { color: $inky; text-decoration: underline; @include transition(color 0.3s ease); } 
+  }
+}
+
+.page#reading {
+  
+  .column#primary {
+    @include region(3/4);
+    @include padding($gutter);
+    margin-bottom: px(50);
+    
+    @media screen and (max-width: 750px) {
+    @include region(1);
+    @include padding(0);
+    margin-bottom: px(10);
+    }
+  }
+  
+  .column#secondary {
+    @include region(1/4);
+    @include padding(px(150) $gutter 0 $gutter);
+    
+    @media screen and (max-width: 750px) {
+    @include region(1);
+    @include padding($smallgutter);
+    }
+  }
+  
+  p#stream {
+    font-family: "elena-web-basic", Helvetica, sans-serif;
+    font-style: italic;
+    font-size: px(21);
+    color: $stormy;
+    line-height: 1.3;
+
+    @include padding(0 0 $gutter 0); @media screen and (max-width: 750px) { @include padding(0 0 $smallgutter $smallgutter) }
+    
+    em { background-color: $sunshine; }
+  }
+  
+  #secondary p {
+    font-family: "elena-web-basic", Helvetica, sans-serif;
+    font-style: italic;
+    font-size: px(15);
+    color: $dark-ash;
+    line-height: 1.5;
+    text-align: right;
+    
+    a { background-color: $sunshine; text-decoration: none; color: $dark-ash; @include transition(color 0.2s linear); }
+    a:hover { color: $inky; @include transition(color 0.2s linear); }
+  }
+  
+  /* Pinboard styling */
+  #pinboard_linkroll {
+    @include padding($gutter px(100) $gutter 2*$gutter); @media screen and (max-width: 750px) { @include padding($smallgutter); }
+    background-color: #fefefe;
+    
+    .pin-item br { display: none; }
+    
+    #view-highlights {
+      font-family: "etica", Helvetica, sans-serif;
+      font-size: px(13);
+      font-weight: 100;
+      font-style: italic;
+      color: $inky;
+      background-color: $sunshine;
+      text-decoration: none;
+      text-align: right;
+      float: right;
+    }
+    
+    p {
+      line-height: 1.3; 
+      margin-top: 0.75em;
+      /*max-height: px(173);
+      overflow: hidden;*/
+      
+      a { font-style: normal; }
+    }
+    
+    .pin-title {
+      display: block;
+      margin: px(35) 0 px(15) 0; @media screen and (max-width: 750px) { margin: px(15) 0 px(5) 0; }
+      
+      font-family: "etica-display", Helvetica, sans-serif;
+      font-weight: 100;
+      font-size: px(30); @media screen and (max-width: 750px) { font-size: px(25); }
+      text-decoration: none;
+      line-height: 1.2;
+      color: $obsidian;
+      @include transition(all 0.2s linear);
+      }
+      .pin-title:hover { background-color: transparentize($smoke, 0.4); color: $obsidian; @include transition(all 0.2s linear); }
+      
+    .pin-description, blockquote {
+      display: block;
+      margin-bottom: px(20);
+      padding-left: px(15);
+      
+      border-left: 1px solid $wisp;
+      
+      font-family: "elena-web-basic", Helvetica, sans-serif;
+      line-height: 1.6;
+      font-size: px(18); @media screen and (max-width: 750px) { line-height: 1.4;}
+      color: $obsidian;
+      }
+      
+    .pin-tag {
+      font-family: "etica", Helvetica, sans-serif;
+      font-size: px(14);
+      font-weight: 100;
+      color: $ash;
+      word-spacing: 4px;
+      text-decoration: none;
+      display: inline-block;
+      margin-bottom: px(5);
+      margin-right: px(5);
+      @include transition(all 0.2s linear);
+      }
+      .pin-tag:hover { color: $pepperjack; @include transition(all 0.2s linear); }
+  }
+  
+}
+
+/* Thinking (Drucker) */
+.page#thinking {
+#drucker {
+  .hero {
+    @include region(2/3);
+    @include padding($gutter);
+    @media screen and (max-width: 750px) { @include region(1); @include padding($smallgutter); }
+  }
+  
+  .row.reading {
+    background-color: #fff; box-shadow: 0 0 3px $ash;
+    h2 { @include padding($gutter); font-family: "etica", Helvetica, sans-serif; }
+    @media screen and (max-width: 750px) { background-color: transparent; box-shadow: none; }
+  }
+
+  .column.reading {
+    @include region(1/5);
+    @include padding($gutter);
+    
+    border-right: 1px solid $light-ash;
+    height: 200px;
+    
+    @media screen and (max-width: 750px) { 
+      @include region(1);
+      max-width: 320px;
+      float: none;
+      @include padding($smallgutter $gutter);
+      border-right: none;
+      background-color: #fff;
+      height: auto;
+      }
+    
+    li { margin-left: $gutter; }
+    a { background-color: $sunshine; }
+  }
+  
+    .column.reading.last { border-right: none; }
+  
+  .column#time img { margin: $gutter 0; }
+  
+  .column.half {
+    @include region(1/2);
+    @include padding($gutter);
+    @media screen and (max-width: 750px) { @include region(1); @include padding($smallgutter); }
+    
+    img { max-width: 100%; box-shadow: 0 0 3px $ash; }
+    img.no-shadow { box-shadow: none; }
+  }
+  
+  h1 {
+    font-family: "etica", Helvetica, sans-serif;
+    font-size: px(30);
+    color: $watermelon;
+  }
+  
+  h2 {
+    font-family: "etica", Helvetica, sans-serif;
+    font-size: px(16);
+    color: $watermelon;
+    margin-bottom: $gutter;
+  }
+  
+  h3 {
+    font-family: "etica", Helvetica, sans-serif;
+    font-size: px(13);
+    line-height: 1.3;
+    color: $obsidian;
+    height: px(60); @media screen and (max-width: 750px) { height: auto; margin-bottom: $smallgutter; }
+  }
+  
+  p, .column li {
+    font-family: "elena-web-basic", Helvetica, serif;
+    font-size: px(16); @media screen and (max-width: 500px) { font-size: px(16); }
+    line-height: 1.4;
+    
+    em { font-style: italic; }
+    a { color: $obsidian; @include transition(color 0.2s linear); }
+    a:hover { color: $stormy; @include transition(color 0.2s linear); }
+  }
+  
+  .column li { list-style-type: disc; @media screen and (max-width: 500px) { margin-left: $gutter; } }
+  
+  p + p { text-indent: 1.25em; }
+}
+}
+
+.page#editing, .page#designing {
+  
+  .blurb {
+    @include region(1/3);
+    @include padding($gutter $gutter 0 $gutter);
+    
+    @media screen and (max-width: 695px) {
+    @include region(1);
+    @include padding($smallgutter);
+    }
+    
+    font-family: "elena-web-basic", Georgia, serif;
+    
+    a { text-decoration: none; font-style: italic; color: $pepperjack; }
+    a:hover {text-decoration: underline;}
+    
+    h2 { 
+      font-size: px(20); @media screen and (max-width: 750px) { font-size: px(30); }
+      margin-bottom: px(16);
+      color: $obsidian;
+      a { font-weight: 700; font-style: normal; }
+    }
+    p, li {
+      font-size: px(14); @media screen and (max-width: 750px) { font-size: px(16); }
+      line-height: 1.4;
+    }
+    
+    p {
+      margin-bottom: px(20);
+    }
+    
+    em { font-style: italic; }
+    
+    li { font-family: "etica", Helvetica, sans-serif; font-size: px(12); list-style: disc; }
+    li { 
+      @media screen and (max-width: 750px) {
+        font-size: px(14);
+        list-style: none;
+        } 
+      }
+  }
+  
+  .images {
+    @include region(2/3);
+    @include padding($gutter);
+    
+    @media screen and (max-width: 666px) {
+      @include region(1);
+      @include padding($smallgutter);
+    }
+    
+    img {
+      box-shadow: 0 0 3px $dark-ash;
+      width: 100%;
+    }
+  }
+  
+  .aux-images {
+    .column { @include region(1/2); @include padding($gutter); }
+    .column { @media screen and (max-width: 500px) { @include region(1); @include padding($smallgutter); } }
+    img {
+      box-shadow: 0 0 3px $dark-ash;
+      width: 100%;
+    }
+  }
+}
+
+.page#designing {
+  
+  h3 { font-weight: 100; font-family: "etica", Helvetica, sans-serif; }
+  
+  .row.hero { @include padding($gutter); @media screen and (max-width: 750px) {@include padding($smallgutter);} }
+  
+  .blurb a { text-decoration: none; font-style: normal; color: $cerulean; }
+  .team.blurb em { color: $dark-ash; }
+  
+  img {
+    box-shadow: 0 0 3px $dark-ash;
+    width: 100%;
+  }
+  
+  img.no-shadow { box-shadow: none; }
+  
+  .column { 
+    @include padding($gutter); @media screen and (max-width: 695px) {@include padding($smallgutter);}
+    img { margin-bottom: $gutter*2; @media screen and (max-width: 750px) {margin-bottom: $smallgutter;} }
+  }
+  
+  .column:last-child { margin-bottom: 0; }
+  
+  .column.major { @include region(2/3); @media screen and (max-width: 666px) {@include region(1);} }
+  .column.minor { @include region(1/3); @media screen and (max-width: 500px) {@include region(1);} }
+  
+  .column p {
+    @media screen and (max-width: 750px) {
+    margin-bottom: px(5);
+    }
+  }
+  
+}
+
+.page#article-index {
+  
+  h2 {
+    font-family: "etica-display", Helvetica, sans-serif;
+
+    margin-top: px(70);
+    margin-bottom: px(5);
+    font-size: 2em;
+    font-weight: 100;
+    font-style: regular;
+    line-height: 1.3;
+    
+    @include padding($gutter); @media screen and (max-width: 750px) { @include padding($smallgutter); margin-top: px(20); }
+  }
+  
+  ul#article-titles {
+    @include region(3/5);
+    @include prefix(1/5);
+    
+    @media screen and (max-width: 750px) {
+    @include region(1);
+    @include prefix(0);
+    @include padding($smallgutter);
+    }
+    
+    font-family: "etica", Helvetica, sans-serif;
+
+    margin-bottom: px(50);
+    font-size: px(18);
+    font-weight: 400;
+    font-style: regular;
+    
+    @media screen and (max-width: 750px) {
+      font-size: px(18);
+      margin-bottom: px(0);
+    }
+    
+    a { text-decoration: none; color: $obsidian; @include transition(color 0.2s linear); }
+    a:hover { color: $stormy; @include transition(color 0.2s linear); }
+    
+    span { font-size: px(15); font-weight: 400; color: $dark-ash; }
+  }
+  
+  li { margin-bottom: px(10); }
+}
+
+.page#article {
+  position: relative;
+
+  margin: 0 auto;
+  background-color: #fdfdfd;
+  
+  color: $obsidian;
+  
+  .entry-content {
+    
+    margin: px(75) 0;
+    @include padding(0 20%);
+    
+    @media screen and (max-width: 750px) {
+    @include padding($smallgutter);
+    margin: px(20) 0;
+    }
+    
+    h2 {
+      font-family: "etica", Helvetica, sans-serif;
+
+      margin-bottom: px(5);
+      font-size: 2em; @media screen and (max-width: 500px) { font-size: px(30); }
+      font-weight: 700;
+      font-style: regular;
+      
+      a { text-decoration: none; color: $obsidian; @include transition(color 0.2s linear); }
+      a:hover { color: $stormy; @include transition(color 0.2s linear); }
+    }
+    
+    h3 {
+      margin-bottom: px(24); @media screen and (max-width: 500px) { font-size: px(15); }
+      font-family: "etica", Helvetica, sans-serif;
+      font-weight: 400;
+      color: $dark-ash;
+    }
+    
+    p, li {
+      font-family: "elena-web-basic", Helvetica, serif;
+      font-size: 1.1em; @media screen and (max-width: 500px) { font-size: px(16); }
+      line-height: 1.5;
+      
+      em { font-style: italic; }
+      a { color: $obsidian; @include transition(color 0.2s linear); }
+      a:hover { color: $stormy; @include transition(color 0.2s linear); }
+    }
+    
+    li { list-style-type: disc; @media screen and (max-width: 500px) { margin-left: $gutter; } }
+    
+    p + p { text-indent: 1.25em; }
+    
+    img {
+      margin: px(20) auto;
+      display: block;
+      max-width: 100%;
+    }
+    
+    img.tweet-left { box-shadow: 0 0 3px $dark-ash; margin: px(20) px(20) px(20) -35%; float: left; }
+    
+    img.side-right {
+      max-width: 18%;
+      position: absolute;
+      right: $gutter;
+    }
+    
+    img.sidenote {
+      position: absolute;
+      left: 0px;
+      border-bottom: 1px solid #eee;
+      @include padding(0 0 $gutter $gutter+3.125rem);
+    }
+    
+    @media screen and (max-width: 500px) {
+      img.small-hide { display: none; }
+      img.small-block { position: static; max-width: 100%; margin: 0 0 $smallgutter 0; float: none; }
+    }
+    
+    blockquote {
+      color: $inky;
+      padding-left: px(15);
+      margin: px(20) 0;
+      border-left: 1px solid $wisp;
+      em {
+        color: $obsidian;
+        background-color: $sunshine;
+      }
+    }
+    
+    hr { width: 40px; margin: px(20) auto; }
+  }
+}
+
+.page#making {
+  position: relative;
+
+  margin: 0 auto;
+  background-color: #fdfdfd;
+  
+  color: $obsidian;
+  
+  .content {
+    
+    margin: px(75) 0;
+    @include padding(0 20%);
+    
+    @media screen and (max-width: 750px) {
+    @include padding($smallgutter);
+    margin: px(20) 0;
+    }
+    
+    h2 {
+      font-family: "etica", Helvetica, sans-serif;
+
+      margin-bottom: px(20);
+      font-size: 1.3em; @media screen and (max-width: 500px) { font-size: px(30); }
+      font-weight: 700;
+      font-style: regular;
+    }
+
+    ul { margin: px(10) 0; }
+    
+    p, li {
+      font-family: "elena-web-basic", Helvetica, serif;
+      font-size: 1.1em; @media screen and (max-width: 500px) { font-size: px(16); }
+      line-height: 1.5;
+      
+      em { font-style: italic; }
+      a { color: $obsidian; @include transition(color 0.2s linear); }
+    }
+    
+    li { 
+      list-style-type: disc;
+      margin-bottom: px(2);
+      @media screen and (max-width: 500px) { margin-left: $gutter; }
+
+      font-size: px(13);
+      font-family: "etica", Helvetica, sans-serif;
+      font-weight: 400;
+      color: $obsidian;
+      background-color: $wisp;
+    }
+    
+    /*p + p { text-indent: 1.25em; }*/
+    
+    img {
+      margin: px(20) auto;
+      display: block;
+      max-width: 100%;
+    }
+        
+    .sidenote {
+      position: absolute;
+      left: 0px;
+      @include padding(0 0 $gutter $gutter+3.125rem);
+
+      @media screen and (max-width: 500px) { padding-left: 0px; position: static; }
+
+      font-size: px(12);
+      font-family: "etica", Helvetica, sans-serif;
+      font-weight: 400;
+      color: $dark-ash;
+    }
+    
+    @media screen and (max-width: 500px) {
+      img.small-hide { display: none; }
+      img.small-block { position: static; max-width: 100%; margin: 0 0 $smallgutter 0; float: none; }
+    }
+    
+    blockquote {
+      color: $inky;
+      padding-left: px(15);
+      margin: px(20) 0;
+      border-left: 1px solid $wisp;
+    }
+    
+    hr { width: 40px; margin: px(20) auto; }
+  }
+}
+
+.page#bio {
+  
+  .column {
+    @include region(1/2);
+    @include padding($gutter);
+    @media screen and (max-width: 750px) { @include region(1); @include padding($smallgutter); }
+    
+    h1 {
+      font-family: "etica", Helvetica, sans-serif;
+
+      margin-top: px(170); @media screen and (max-width: 750px) { margin-top: $smallgutter; }
+      margin-bottom: px(5);
+      font-size: 2em;
+      font-weight: 700;
+      font-style: regular;
+      color: $cerulean;
+    }
+    
+    h2 {
+      font-family: "etica", Helvetica, sans-serif;
+      font-size: px(14);
+      font-weight: 400;
+      font-style: regular;
+      
+      color: $cerulean;
+      margin-bottom: px(10);
+    }
+    
+    p {
+      font-family: "elena-web-basic", Helvetica, serif;
+      font-size: px(16);
+      line-height: 1.5;
+      
+      em { font-style: italic; }
+      em#design { color: $cerulean; }
+      em#edit { color: $pepperjack; }
+      
+      .highlight { background-color: $sunshine; font-size: px(14); }
+      
+      a { color: $obsidian; @include transition(color 0.2s linear); }
+      a:hover { color: $stormy; @include transition(color 0.2s linear); }
+    }
+    
+    p#intro { font-size: px(20); margin-bottom: px(16); @media screen and (max-width: 750px) { margin-bottom: 0px; } }
+    p + p { text-indent: 1.25em; }
+    
+    img { width: 100%; box-shadow: 0 0 3px $inky; }
+    
+    hr { width: 40px; margin: px(20) auto; }
+  }
+  
+  .column#main { background-color:#fff; margin-bottom: 40px; float: right; }
+  
+  .column#get-in-touch {
+    
+    p { text-align: right; font-size: px(18); margin-top: px(-8); margin-top: px(-6); margin-bottom: px(8); }
+    
+    ul#elsewhere {
+      font-family: "etica";
+      font-size: px(12); @media screen and (max-width: 750px) { display: none; }
+      color: $inky;
+      text-align: right;
+      
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      a#twitter { color: $cerulean; }
+      a#gimmebar { color: #d6156c; }
+      a#pinboard { color: #0000e6; }
+      a#readmill { color: #70b32d; }
+      a#flickr { color: $pepperjack; }
+      
+      li { margin-bottom: 10px; margin-bottom: 11px; }
+    }
+    
+  }
+}
+
+.hidden { display: none; }

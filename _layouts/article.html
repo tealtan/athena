@@ -1,0 +1,17 @@
+---
+layout: base
+---
+
+<div class="page" id="article">
+  {% include header.html %}
+  
+  <div class="entry-content">
+    <h2>
+      <a href="{{ page.url }}/" title="{{ page.title }}"> {{ page.title }}</a>
+    </h2>
+    <h3>&mdash; {{ page.date | date: '%b' }} {{ page.date | date: '%Y' }}</h3>
+    {{ content }}
+  </div>
+  
+  {% include footer.html %}
+</div>

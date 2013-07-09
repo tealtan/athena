@@ -1,0 +1,187 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>Allen Tan is…making a mnemosyne</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<meta name="viewport" content="width=device-width">
+	
+	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
+  <!--[if IE]>
+    <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  <![endif]-->
+  
+  <script type="text/javascript" src="http://use.typekit.com/bdq4ygm.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+	<script src="js/libs/modernizr-2.5.3.min.js"></script>
+</head>
+<body>
+
+<div class="page" id="making">
+  <header>
+  <div class="row">
+    <h1><a href="/">Allen Tan</a> <em>is&#8230;</em></h1>
+    <ul>
+      <li><a id="thinking" href="/thinking/drucker.html">thinking</a>, </li>
+      <li><a id="reading" href="/reading/publishing.html">reading</a>, </li>
+      <li><a id="collecting" href="http://blog.tanmade.com">collecting</a>, </li>
+      <li><a id="designing" href="/designing.html">designing</a>, </li>
+      <li><a id="editing" href="/editing.html">editing</a>, </li>
+      <li><a id="writing" href="/writing">writing</a>, </li>
+      <li><a id="making" href="/making/mnemosyne.html">making</a>, </li>
+      <li>and <a id="playing" href="/bio.html">playing around</a></li>
+    </ul>
+  </div>
+  <hr/>
+</header>
+
+  <div class="content">
+    <img src='/img/making/muse.jpg' />
+<p><em>Working notes for my mnemosyne project. Please excuse the dust and noise.</em></p>
+<hr />
+<h2 id='july_11_2012'>July 11, 2012</h2>
+
+<p>Basics are set up. Using node will force me to learn to write better javascript, plus make it easy to run both as a command-line program as well as a web app – I’ll be able to test out new functions with dummy files.</p>
+
+<ul>
+<li>Compiled V8 javascript executable.</li>
+
+<li>Installed node.js.</li>
+</ul>
+
+<p>Already, the fact that node is asynchronous is causing problems. Tried to write files after reading them and realized they were happening in parallel, with the write finishing first. Threw up a lot of errors until I realized what was happening.</p>
+
+<p>Learned about callback functions and got bad Scheme flashbacks. The time function has some fancy padding to add leading zeros to ‘0X’ and ‘00’ values.</p>
+
+<ul>
+<li>Local file writing and reading.</li>
+
+<li>Time function (for saving files with unique names).</li>
+</ul>
+
+<p>Set up content templates – text, image, audio, video, link, quote – which are based on Tumblr. I’m going to also add one for tweets.</p>
+
+<p>Looking at Storify for more ideas. Facebook, Flickr, Instagram – no use for Facebook, but image extraction from Flickr or Instagram urls may be a good idea.</p>
+
+<p>Should also remember to do special handling for Youtube, Vimeo, and Pinboard.</p>
+<span class='sidenote'>TODO:</span>
+<ul>
+<li>Extract image links from Flickr and Instagram URLs. @future</li>
+
+<li>Generate embed codes for Youtube and Vimeo links. @future</li>
+
+<li>Special treatment for Pinboard (subcategory of link?) @future</li>
+</ul>
+<span class='sidenote'>NEXT:</span>
+<ul>
+<li>Convert input into different content types (just JSON for now)</li>
+
+<li>Handle duplication, chains</li>
+
+<li>Create html versions of content types</li>
+</ul>
+<hr />
+<h2 id='july_20_2012'>July 20, 2012</h2>
+
+<p>Looked into Postgresql for future data storage, which looks to have <a href='https://github.com/brianc/node-postgres/'>good node support</a>. I&#8217;m keeping things as flat files for now, but eventually content data needs to live in a database (with easy exporting of user data to JSON). I&#8217;m working on the html versions of the content, including the visual design for dragging and editing. I want to have a good idea of the markup structure for each content type before the translation code gets written.</p>
+
+<p>Using jQuery UI for drag and resize functions – with some grid snapping, which saves me a lot of work. Current thinking is 5 columns of 200px each, with vertical units of 20px.</p>
+
+<p>When the content objects get hooked up to the backend:</p>
+<span class='sidenote'>TODO:</span>
+<ul>
+<li>position info needs to be saved</li>
+
+<li>size info needs to be saved</li>
+</ul>
+<hr />
+<h2 id='august_29_2012'>August 29, 2012</h2>
+
+<p>I couldn&#8217;t get my mind off <a href='http://www.cityofsound.com/blog/2012/08/dark-matter-trojan-horses-strategic-design-vocabulary.html'>Dan Hill&#8217;s post about dark matter</a>, which made great testing grounds for the <a href="/making/darkmatter">first Mnemosyne trial</a>. Many of the pieces aren&#8217;t done yet, so I had to “simulate” the steps I would be taking in the fully-functional version. It felt a bit like running in water.</p>
+
+<ul>
+<li>I went and dug through my Pinboard bookmarks and located the Craig Mod piece about the book he made at Flipboard.</li>
+
+<li>I read the dark matter post again, then opened all the sibling posts and read those too. All my highlights from these posts went into Pinboard.</li>
+
+<li>I added these items into a new Mnemosyne doc, which slurped in my Pinboard highlights, breaking up each blockquote into individual items.</li>
+
+<li>I shuffled the pieces around, trying to arrange the lines of thought. I deleted the things that didn&#8217;t fit the themes that emerged.</li>
+
+<li>I added labels for each cluster of items.</li>
+
+<li>I highlighted crucial sentences in a (still) pretty dense text block to further tease out the thought.</li>
+
+<li>I went back into Dan&#8217;s posts, grabbed the URL of several images, and added them to Mnemosyne.</li>
+
+<li>I added notes next to a few items.</li>
+
+<li>I published it.</li>
+</ul>
+
+<p>So: <em>it works</em>. The workflow above closely mirrors the most common user scenario: taking apart several pieces and putting them back together in a synthesized form.</p>
+
+<p>Obviously it can also be used to collect items from many different sources (like multiple responses on Twitter). Storify handles this reasonably well, though the linearity of it restricts the kind of arrangement that&#8217;s possible here.</p>
+<hr />
+<p>It helps to draw connections spatially instead of semantically, so they&#8217;re kind of fuzzy, until you figure out more precise ideas. So two things are next to each other, whether they&#8217;re saying the same thing, on different sides of an argument, or building off of one another.</p>
+
+<p>I was surprised by how much playfulness and momentum comes through. This comes from learning to place items in a way that leads the eye, so that the reader is able to follow along one thread into the next. A certain rhythm comes through, from the sizes and positions that change from one thing to the next. (This was pretty intuitive to figure out, and the system is loose enough to let you figure out your own conventions.)</p>
+<hr />
+<p>What I haven&#8217;t confirmed:</p>
+
+<ul>
+<li>that this can be used for developing a hunch, over time. My experiment took the course of a single evening. I want it to also work over the course of a few weeks, adding and arranging a little each day.</li>
+
+<li>that this can work to synthesize 5, 6, 7, or large number of sources. (Or whether it&#8217;s even desirable to.) This experiment took in a lot of highlights, but only from ~4 sources.</li>
+</ul>
+
+<p>I see it primarily as a private tool, to be used to work out ideas before they become an essay (or whatever else). But I liked that at the end, @rogre suggested a bunch of things for me to add. @vruba had used Google Docs with a bunch of people (8+) one night to draft out a bunch of ideas in public, and while that was riotous fun, I want to build in more controlled points where someone can give you feedback or suggestions, at a time and place where you&#8217;re best able to draw on them.</p>
+<span class='sidenote'>TODO:</span>
+<ul>
+<li>Add new object type: question @future</li>
+
+<li>Add Twitter OAuth for inviting &amp; providing feedback @future</li>
+</ul>
+  </div>
+  
+  <footer>
+  <div class="row">
+    <hr/>
+    <p>in Brooklyn, New York. <a href="/bio.html">+More about me?</a></p>
+  </div>
+</footer>
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.2.min.js"><\/script>')</script>
+
+<script src="/js/plugins.js"></script>
+<script src="/js/script.js"></script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-12233443-2']);
+  _gaq.push(['_setDomainName', 'tanmade.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+
+</body>
+</html>

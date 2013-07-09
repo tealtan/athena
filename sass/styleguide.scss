@@ -1,0 +1,203 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+
+@import "compass/reset";
+
+@import "config";
+@import "grid";
+
+body {
+  background-color: #f9f9f9;
+}
+
+#page {
+  position: relative;
+  
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  
+  color: #333;
+  
+  h1 {
+    font-family: "etica", Helvetica, sans-serif;
+    
+    font-size: 2em;
+    margin-bottom: px(10);
+    
+    &.hero {
+      font-size: 4em;
+      font-weight: 400;
+      font-style: regular;
+      
+      margin-bottom: px(20);
+      @include prefix(1/5);
+    }
+    
+    &.janus {
+      margin-top: 3em;
+      font-size: 3em;
+      font-weight: 700;
+      float: left;
+      @include region(1/2);
+      @include padding(0 $gutter);
+    }
+    
+    &.chimera {
+      margin-top: 0.8em;
+      font-size: 1.6em;
+      font-weight: 400;
+      float: left;
+      @include region(1/3);
+      @include padding(0 $gutter);
+    }
+  }
+  
+  h2 {
+    font-family: "etica-display", Courier, sans-serif;
+    
+    font-size: 1.3em;
+    line-height: 1.3;
+    
+    &.hero {
+      font-size: 1.3em;
+      font-weight: 100;
+      font-style: italic;
+      color: #bbb;
+      
+      margin-bottom: px(30);
+      @include prefix(1/5);
+    }
+    
+    &.janus {
+      font-size: 1.3em;
+      
+      margin-bottom: 0.5em;
+      border-top: 1px solid #eee;
+      float: left;
+      @include region(1/2);
+      @include padding(0 $gutter);
+      padding-top: px(10);
+    }
+    
+    &.chimera {
+      font-size: 1.2em;
+      
+      margin-top: 0.75em;
+      margin-bottom: 0.5em;
+      float: left;
+      @include region(2/3);
+      @include padding(0 $gutter $gutter $gutter);
+      padding-top: px(10);
+    }
+  }
+  
+  p { 
+    font-family: "elena-web-basic", Helvetica, serif;
+    font-size: 1em;
+
+    &.hero {
+      font-size: 1.2em;
+      line-height: 1.5;
+      margin-bottom: 1.2em;
+      
+      @include region(3/5);
+      @include prefix(1/5);
+    }
+    
+    &.janus {
+      font-size: 1em;
+      line-height: 1.4;
+      text-align: justify;
+      
+      float: left;
+      @include region(1/2);
+      @include padding(0 $gutter);
+    }
+    
+    &.chimera {
+      font-size: 0.85em;
+      line-height: 1.55;
+      margin-bottom: 1.4em;
+      float: left;
+    }
+  }
+  
+  .split {
+    @include padding ($gutter 0);
+    //background: url('/img/line.gif') repeat-y;
+    //background: url('/img/line.gif') repeat-y, url('/img/line.gif') repeat-x;
+    //background-position: 50% 0%, 0% 0%;
+  }
+  
+  .split img {
+    float: left;
+    @include padding(0 $gutter);
+  }
+  
+  img {
+    opacity: 0.33;
+  }
+  
+  img.chimera {
+    float: left;
+  }
+  
+  img.chimera.small {
+    margin-right: 1em;
+    margin-bottom: $gutter+0.85rem;
+  }
+  
+  img.seastar.small {
+    margin-bottom: $gutter;
+  }
+  
+  .column {
+    float: left;
+    border-right: 1px solid #eee;
+    &.last { border-right: 0px; }
+  }
+  
+  .column.chimera {
+    @include region(1/3);
+    @include padding($gutter);
+  }
+  
+  .column.seastar {
+    @include region(1/5);
+    @include padding($gutter);
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    min-height: 670px;
+  }
+  
+  .seastar p {
+    font-size: 0.75em;
+    font-family: "etica", Helvetica, sans-serif;
+    font-weight: 400;
+    color: #777;
+    line-height: 1.5;
+  }
+  
+  img.sidenote {
+    position: absolute;
+    left: 0px;
+    border-bottom: 1px solid #eee;
+    @include padding(0 0 $gutter $gutter+3.125rem);
+  }
+  
+  .row.chimera.hed {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .chimera.lede {
+    font-size: 1.1em;
+    @include padding($gutter 0);
+    margin-bottom: 12px;
+    padding-top: px(25);
+  }
+}

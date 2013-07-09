@@ -1,0 +1,47 @@
+// Grid framework
+
+// Width of element
+@mixin region($fraction) {
+  width: $fraction * 100%;
+}
+
+// Left margin of element
+@mixin prefix($fraction) {
+  margin-left: $fraction * 100%;
+}
+
+// Right margin of element
+@mixin suffix($fraction) {
+  margin-right: $fraction * 100%;
+}
+
+// Center element in container
+@mixin centered {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// Padding of container
+@mixin padding($values) {
+  box-sizing: border-box;
+  padding: $values;
+}
+
+$gutter: px(20);
+$smallgutter: $gutter/2;
+
+.page { width: px(1100); @include padding(50px); } // Set size of page, gutters
+
+//Set rows to clear vertically
+.row { 
+  clear: both;
+  
+  &::before, &::after {
+  display: table;
+  content: '';
+  }
+  
+  &::after {clear: both;}
+}
+
+.column { float: left; }

@@ -1,0 +1,63 @@
+body {
+  background-color: #f8f7ee;
+}
+body {
+  max-width: 80%;
+  width: 550px;
+  padding: 25px 10%;
+  margin: 70px auto;
+  background-color: #fff;
+}
+
+h1, h2, h3 { 
+  font-family: "Gill Sans", "Helvetica", "Arial", sans-serif;
+  font-weight: 100;
+}
+
+h1 {
+  font-size: 42px;
+  margin-bottom: 26px;
+}
+
+h2 { 
+  font-size: 18px;
+  line-height: 26px;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+hr {
+  margin: 26px 0;
+  display: block; height: 1px;
+  border: 0; border-top: 1px solid #ddd;
+}
+
+p {
+  font-family: "Chaparral Pro", Cambria, Times, Georgia, serif;
+  font-size: 20px;
+  line-height: 26px;
+  margin-bottom: 26px;
+}
+
+/*Gloss*/
+
+span.sentence {
+  background: rgba(0,0,0,0);
+}
+
+span.sentence,
+span.sentence:hover {
+    -webkit-transition: background 0.1s linear;
+}
+span.sentence:hover {
+    cursor: pointer;
+    background: #FFFBCC;
+}
+
+span.sentence.highlighted,
+span.sentence.highlighted:hover {
+    background: #FFF461;
+}

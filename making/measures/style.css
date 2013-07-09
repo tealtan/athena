@@ -1,0 +1,16 @@
+body {
+ background-color: #fee;
+}
+
+p {
+ width: 400px;
+ background-color: #fff;
+ margin: 200px auto;
+ font-size: 28px;
+ line-height: 1.4;
+ font-family: Garamond, Palatino, Times, serif;
+ color: #333;
+ text-align: center;
+ padding: 100px;
+ box-shadow: 0 2px 2px 1px rgba(0,0,0,0.1);
+}
