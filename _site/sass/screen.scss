@@ -825,6 +825,10 @@ footer {
     }
     
     hr { width: 40px; margin: px(20) auto; }
+
+    #excerpt { padding: 15px; background-color: #fff; height: 120px; }
+    #excerpt #app-icon { float: left; margin-right: 15px; }
+    #excerpt p { margin: 40px 0 0 0; }
   }
 }
 
