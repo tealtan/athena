@@ -804,6 +804,12 @@ footer {
       position: absolute;
       right: $gutter;
     }
+
+    img.float-left {
+      float: left;
+      margin: 0 $gutter $gutter 0;
+      max-width: 45%;
+    }
     
     img.sidenote {
       position: absolute;
@@ -829,6 +835,10 @@ footer {
     #excerpt { padding: 15px; background-color: #fff; height: 120px; }
     #excerpt #app-icon { float: left; margin-right: 15px; }
     #excerpt p { margin: 40px 0 0 0; }
+
+    .twitter-tweet {
+      margin: 25px auto 30px !important;
+    }
   }
 }
 

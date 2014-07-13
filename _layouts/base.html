@@ -17,7 +17,17 @@
   <!--[if IE]>
     <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
   <![endif]-->
-  
+
+  {% if page && page.custom-css %}
+  <link href="/stylesheets/{{page.custom-css}}" media="screen, projection" rel="stylesheet" type="text/css" />
+  {% endif %}
+
+  {% if page && page.custom-js %}
+  <script type="text/javascript" src='{{page.custom-js}}'></script>
+  {% endif %}
+
+  <script type="text/javascript" src={{page.custom_js}}></script>
+
   <script type="text/javascript" src="http://use.typekit.com/bdq4ygm.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
