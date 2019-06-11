@@ -1,0 +1,52 @@
+/*
+        This font software is the property of Commercial Type.
+
+        You may not modify the font software, use it on another website, or install it on a computer.
+
+        License information is available at https://commercialtype.com/eula
+        For more information please visit Commercial Type at https://commercialtype.com or email us at info[at]commercialtype.com
+
+        Copyright (C) 2013 Schwartzco Inc.
+        License: 1312-ZXKVIH     
+*/
+
+
+@font-face {
+  font-family: 'Portrait Web';
+  src: url('Portrait-Regular-Web.eot');
+  src: url('Portrait-Regular-Web.eot?#iefix') format('embedded-opentype'),
+     url('Portrait-Regular-Web.woff') format('woff'),
+     url('Portrait-Regular-Web.ttf') format('truetype'),
+     url('Portrait-Regular-Web.svg#Portrait Web') format('svg');
+  font-weight:  400;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.Portrait-Regular-Web {
+  font-family: 'Portrait Web';
+  font-weight:  400;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Portrait Web';
+  src: url('Portrait-RegularItalic-Web.eot');
+  src: url('Portrait-RegularItalic-Web.eot?#iefix') format('embedded-opentype'),
+     url('Portrait-RegularItalic-Web.woff') format('woff'),
+     url('Portrait-RegularItalic-Web.ttf') format('truetype'),
+     url('Portrait-RegularItalic-Web.svg#Portrait Web') format('svg');
+  font-weight:  400;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+.Portrait-RegularItalic-Web {
+  font-family: 'Portrait Web';
+  font-weight:  400;
+  font-style:   italic;
+  font-stretch: normal;
+}
+

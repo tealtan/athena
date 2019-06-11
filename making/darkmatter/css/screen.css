@@ -1,0 +1,67 @@
+body {
+  background-color: #f6f6f6;
+  font-family: Helvetica, sans-serif;
+}
+
+#container {
+  position: relative;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.object {
+  position: absolute;
+  background-color: #fff;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.15); /* Temporary */
+}
+
+.object.note {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+img {
+  width: 100%;
+}
+
+/* Text */
+
+.text p {
+  font-family: Georgia, serif;
+  font-size: 14px;
+  line-height: 1.4;
+  margin: 0 0 10px 0;
+}
+
+.text p span.highlight {
+  background-color: #fef8b6;
+}
+
+/* Links */
+
+.link {
+  padding: 15px;
+}
+
+.link a {
+  text-decoration: none;
+  color: #35a7ce;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.link a:hover {
+  text-decoration: underline;
+}
+
+/* Notes */
+
+.note {
+  color: #aaa;
+}
+
+.note p {
+  font-size: 13px;
+}
