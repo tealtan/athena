@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom">
+  <channel>
+    <title>Allen Tan</title>
+    <description>Designer for NYT by day. Editor for Contents and Codex by night. Robolibrarybrain.</description>
+    <link>https://tanmade.com/</link>
+    <atom:link href="https://tanmade.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 03 Jan 2018 15:20:08 -0500</pubDate>
+    <lastBuildDate>Wed, 03 Jan 2018 15:20:08 -0500</lastBuildDate>
+    <generator>Jekyll v3.6.2</generator>
+    
+      <item>
+        <title>Hell is other people</title>
+        <description>&lt;p&gt;I’ve joked a few times now that algorithms are just other people’s abstractions.&lt;/p&gt;
+
+&lt;p&gt;What I mean is that they are &lt;em&gt;other&lt;/em&gt; people’s abstractions — never your own! — your own abstractions are how you objectively arrived at the solution.&lt;/p&gt;
+
+&lt;p&gt;If algorithms are, as Nick Seaver says, &lt;a href=&quot;https://www.theatlantic.com/technology/archive/2017/12/it-might-be-impossible-for-future-historians-to-understand-our-internet/547463/&quot;&gt;“collections of human practices that are in interaction with each other”&lt;/a&gt;, then much of the angst around the algorithms of the Fates comes from seeing beliefs and biases reflected that are alien or hostile to us. There’s a certain kind of violence that comes from the weight of an entire system that disagrees with you that will be familiar to the disenfranchised.&lt;/p&gt;
+
+&lt;p&gt;If hell is other people, then what is other people crystallized at the titanic scale that our social platforms operate on?&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;There was a moment during the 90s networking of personal computers when people in tech shifted their posture to security. If you developed a computing platform with vulnerabilities, you could not simply throw up your hands and lay blame at the feet of those doing the exploiting. You had to assume that where there was motive (financial or political), there would be someone there to take advantage, and it was on the platform makers to find and plug those holes faster than others could.&lt;/p&gt;
+
+&lt;p&gt;What I’m saying is, we’ll know that platforms like Facebook or Twitter or YouTube are serious about protecting their users when they have Red Teams for the abuse of their algorithms.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 07 Dec 2017 00:00:00 -0500</pubDate>
+        <link>https://tanmade.com/notes/2017/12/07/hell-is-other-people/</link>
+        <guid isPermaLink="true">https://tanmade.com/notes/2017/12/07/hell-is-other-people/</guid>
+        
+        
+        <category>notes</category>
+        
+      </item>
+    
+      <item>
+        <title>Table Manners</title>
+        <description>&lt;p&gt;&lt;em&gt;The last time I was back to see my parents, I realized how much there was to remember when eating at home. Since many people’s experience is limited to eating at Chinese restaurants, I put down some rules in these notes.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/chopsticks.gif&quot; alt=&quot;Don’t do this.&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;center&quot;&gt;Center&lt;/h3&gt;
+
+&lt;p&gt;Be advised: do not root through food dishes with your chopsticks. Just grab and go.&lt;/p&gt;
+
+&lt;p&gt;Be advised: inedible bits (bones, ginger slices, green onions) are to be placed with chopsticks in the side plate in front of you. Do not spit them into the plate.&lt;/p&gt;
+
+&lt;p&gt;Be advised: when taking food from the center, start from the sides facing you. Exceptions may be made if a dish has multiple regions.&lt;/p&gt;
+
+&lt;p&gt;Be advised: when done with one side of a fish dish, pull the bones off to get to the other side. Do not flip the fish. Do not flip the fish. Do not flip the fish.&lt;/p&gt;
+
+&lt;h3 id=&quot;bowl&quot;&gt;Bowl&lt;/h3&gt;
+
+&lt;p&gt;Be advised: the proper way of holding a small bowl of rice is with your thumb on the lip, index and middle fingers curled around the side, and the rest on the bottom.&lt;/p&gt;
+
+&lt;p&gt;Be advised: eat rice by bringing your bowl up to your mouth (like you’re sipping soup) and scooping it in. Do not let any rice drop to the table.&lt;/p&gt;
+
+&lt;p&gt;Be advised: as you eat, keep the rice in your bowl level by smoothing it out with your chopsticks over time. Do this without rotating your bowl.&lt;/p&gt;
+
+&lt;p&gt;Be advised: do not leave any grains of rice in bowl.&lt;/p&gt;
+
+&lt;h3 id=&quot;chopsticks&quot;&gt;Chopsticks&lt;/h3&gt;
+
+&lt;p&gt;Be advised: pick up chopsticks so that the bottom ends line up.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;sidenote&quot;&gt;Knives and forks are viewed in much the same light that most Europeans see the use of guns in the United States.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Be advised: you should not need to pierce any food with chopsticks. They are either small enough that you can just pick them up, or are soft enough that you can break them apart into smaller pieces.&lt;/p&gt;
+
+&lt;p&gt;Be advised: chopsticks are not to be used to push plates of food around, stuck vertically into your rice, for waving or pointing, to be crossed, as drumsticks, or as swords.&lt;/p&gt;
+
+&lt;h3 id=&quot;misc&quot;&gt;Misc&lt;/h3&gt;
+
+&lt;p&gt;&lt;span class=&quot;sidenote&quot;&gt;I think the idea is that it’s the only time you don’t have to be looking at the table anyway.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Be advised: watching TV while at the dinner table is only allowed during the time that you’re chewing.&lt;/p&gt;
+
+&lt;p&gt;Be advised: no elbows on the table.&lt;/p&gt;
+
+&lt;p&gt;Be advised: eat more.&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 13 Feb 2016 00:00:00 -0500</pubDate>
+        <link>https://tanmade.com/notes/2016/02/13/table-manners/</link>
+        <guid isPermaLink="true">https://tanmade.com/notes/2016/02/13/table-manners/</guid>
+        
+        
+        <category>notes</category>
+        
+      </item>
+    
+  </channel>
+</rss>

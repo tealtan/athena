@@ -1,0 +1,480 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Selected Work — Allen Tan</title>
+  <meta name="description" content="">
+
+  <script src="https://vjs.zencdn.net/5.11/video.min.js"></script>
+  <link rel="stylesheet" href="https://vjs.zencdn.net/5.11/video-js.min.css">
+
+  <style>
+    @font-face {
+      font-family: 'MaisonNeue';
+      src: url("/fonts/MaisonNeue/MaisonNeueWEB-Book.woff") format("woff");
+      font-weight: 400;
+      font-style: normal;
+      font-stretch: normal; }
+    @font-face {
+      font-family: 'MaisonNeue';
+      src: url("/fonts/MaisonNeue/MaisonNeueWEB-BookItalic.woff") format("woff");
+      font-weight: 400;
+      font-style: italic;
+      font-stretch: normal; }
+    @font-face {
+      font-family: 'MaisonNeue';
+      src: url("/fonts/MaisonNeue/MaisonNeueWEB-Bold.woff") format("woff");
+      font-weight: 700;
+      font-style: normal;
+      font-stretch: normal; }
+    /**
+     * Reset some basic elements
+     */
+    body, h1, h2, h3, h4, h5, h6,
+    p, blockquote, pre, hr,
+    dl, dd, ol, ul, figure {
+      margin: 0;
+      padding: 0; }
+
+    /**
+     * Basic styling
+     */
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font: 400 14px/1.5 "MaisonNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      color: #111;
+      background-color: #ffffff;
+      -webkit-text-size-adjust: 100%;
+      -webkit-font-feature-settings: "kern" 1;
+      -moz-font-feature-settings: "kern" 1;
+      -o-font-feature-settings: "kern" 1;
+      font-feature-settings: "kern" 1;
+      font-kerning: normal; }
+
+    /**
+     * Set `margin-bottom` to maintain vertical rhythm
+     */
+    h1, h2, h3, h4, h5, h6,
+    p, blockquote, pre,
+    ul, ol, dl, figure {
+      margin-bottom: 15px; }
+
+    /**
+     * Images
+     */
+    img {
+      max-width: 100%;
+      vertical-align: middle; }
+
+    /**
+     * Figures
+     */
+    figure > img {
+      display: block; }
+
+    figcaption {
+      font-size: 12.25px; }
+
+    /**
+     * Lists
+     */
+    ul, ol {
+      margin-left: 30px; }
+
+    li > ul,
+    li > ol {
+      margin-bottom: 0; }
+
+    /**
+     * Headings
+     */
+    h1, h2, h3, h4, h5, h6 {
+      font-weight: 400; }
+
+    /**
+     * Links
+     */
+    a {
+      color: #3DB4B9;
+      text-decoration: none;
+      transition: color 0.12s linear; }
+      a:hover {
+        color: #308f93;
+        transition: color 0.12s linear; }
+
+    p .bigLink,
+    p .bigLink:visited {
+      color: #00A522; }
+      p .bigLink:after {
+        content: '❯';
+        color: #99DBA7;
+        font-size: 11px;
+        display: inline-block;
+        margin-left: 5px; }
+
+    h1, h2, h3, p, .wrapper {
+      width: 100%;
+      max-width: 600px;
+      padding: 0 30px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    h1 {
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-top: 15px;
+    }
+
+    h2 {
+      font-size: 20px;
+      font-weight: 700;
+    }
+
+    .date {
+      display: inline-block;
+      margin-left: 10px;
+      font-weight: 400;
+      color: #aaa;
+    }
+
+    p + .stage {
+      margin-top: 30px;
+    }
+
+    .stage.solitary video.video-js {
+      width: 95vw;
+      height: auto;
+      background-color: #f5f5f3;
+      margin: 0 auto;
+    }
+
+    @media (max-width: 600px) {
+
+      h2 {
+        margin-top: 90px;
+      }
+
+      .date {
+        margin-left: 0px;
+      }
+
+      .stage.pair {
+        position: relative;
+        margin-bottom: 30px;
+      }
+
+      .stage img {
+        box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
+      }
+
+      figure.right {
+        position: absolute;
+        top: 0;
+        opacity: 1;
+        -webkit-transition: opacity .4s;
+        transition: opacity .4s;
+        -webkit-transform: translate3d(0, 0, 0);
+        -webkit-backface-visibility: hidden;
+        -webkit-perspective: 1000;
+      }
+
+      figure.right.hide {
+        opacity: 0;
+      }
+
+    }
+
+    @media (min-width: 600px) {
+
+      .project-thumb {
+        display: block;
+        float: left;
+        width: 160px;
+        height: 110px;
+        background-color: #f5f5f3;
+        margin-bottom: 30px;
+      }
+
+      .project-thumb + .project-thumb {
+        margin-left: 25px;
+      }
+
+      main h2 {
+        margin-top: 150px;
+      }
+
+      .stage {
+        background-color: #f5f5f3;
+        width: 100vw;
+        left: 0;
+        border-top: 3px solid #f5f5f3;
+        border-bottom: 3px solid #f5f5f3;
+        padding: 30px;
+      }
+
+      .stage img {
+        box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
+      }
+
+      .stage.pair {
+        display: flex;
+      }
+
+      .stage.pair figure {
+        width: 50%;
+        padding: 0 30px 0 30px;
+      }
+
+      .stage.pair figure img {
+        width: 375px;
+        max-width: 100%;
+        height: 667px;
+      }
+
+      .stage.pair figure { display: flex; justify-content: flex-end; }
+      .stage.pair figure.left { flex-direction: row; }
+      .stage.pair figure.right { flex-direction: row-reverse; }
+
+      .stage.solitary figure img {
+        width: 1280px;
+        max-width: 100%;
+        margin: 0 auto;
+      }
+
+    }
+
+  </style>
+</head>
+
+<body>
+
+<h1>Selected Work</h1>
+
+<main>
+
+  <section>
+    <h2>ACLU Rights for All<span class='date'>2019</span></h2>
+    <p>Volunteer guide to get candidates on the record during primary season.</p>
+    <p><a class='bigLink' href='https://ask.rightsforall.us'>Visit the website</a></p>
+
+    <div class='stage solitary'>
+      <figure><img loading='lazy' src='images/rfa 1.png'/></figure>
+    </div>
+
+    <div class='stage solitary'>
+      <figure><img loading='lazy' src='images/rfa 2.png'/></figure>
+    </div>
+
+    <div class='stage solitary'>
+      <figure><img loading='lazy' src='images/rfa 3.png'/></figure>
+    </div>
+
+    <div class='stage solitary'>
+      <figure><img loading='lazy' src='images/rfa 4.png'/></figure>
+    </div>
+
+    <div class='stage solitary'>
+      <figure><img loading='lazy' src='images/rfa 5.png'/></figure>
+    </div>
+  </section>
+
+  <section>
+    <h2>ACLU Voter<span class='date'>2018</span></h2>
+    <p>Place to show voters their voting information, scores on their representatives, and promote key ballot initiatives.</p>
+    <p><a class='bigLink' href='https://aclu.org/voter'>Visit the website</a></p>
+
+    <div class='stage solitary'>
+      <figure><img loading='lazy' src='images/voter 1.png'/></figure>
+    </div>
+
+    <div class='stage solitary'>
+      <figure><img loading='lazy' src='images/voter 2.png'/></figure>
+    </div>
+
+    <div class='stage solitary'>
+      <figure><img loading='lazy' src='images/voter 3.png'/></figure>
+    </div>
+
+    <div class='stage pair'>
+      <figure class='left'><img style='height:1000px;' loading='lazy' src='images/voter mobile 1.png'/></figure>
+      <figure class='right'><img style='height:1000px;' loading='lazy' src='images/voter mobile 2.png'/></figure>
+    </div>
+  </section>
+
+  <section>
+    <h2>ACLU What the District<span class='date'>2018</span></h2>
+    <p>Interactive showing history of Congressional districts.</p>
+    <p><a class='bigLink' href='https://what-the-district.aclu.org/'>Visit the website</a></p>
+
+    <div class='stage solitary'>
+      <figure><img loading='lazy' src='images/wtd 1.png'/></figure>
+    </div>
+
+    <div class='stage solitary'>
+      <figure><img loading='lazy' src='images/wtd 2.png'/></figure>
+    </div>
+
+    <div class='stage pair'>
+      <figure class='left'><img loading='lazy' src='images/wtd mobile 1.png'/></figure>
+      <figure class='right'><img loading='lazy' src='images/wtd mobile 2.png'/></figure>
+    </div>
+  </section>
+
+  <section>
+    <h2>NYTimes Homepage Redesign<span class='date'>2018</span></h2>
+    <p>A comprehensive redesign of the homepage along with changing how we choose and promote stories.</p>
+    <p>(Case study available upon request)</p>
+
+    <div class='stage pair'>
+      <figure class='left'><img loading='lazy' src='images/hp briefing before.png'/></figure>
+      <figure class='right'><img loading='lazy' src='images/hp briefing after.png'/></figure>
+    </div>
+
+    <div class='stage pair'>
+      <figure class='left'><img loading='lazy' src='images/hp excerpt before.png'/></figure>
+      <figure class='right'><img loading='lazy' src='images/hp excerpt after.png'/></figure>
+    </div>
+
+    <div class='stage pair'>
+      <figure class='left'><img loading='lazy' style='height: 724px;' src='images/hp visual before.png'/></figure>
+      <figure class='right'><img loading='lazy' style='height: 724px;' src='images/hp visual after.png'/></figure>
+    </div>
+
+    <div class='stage pair'>
+      <figure class='left'><img loading='lazy' src='images/hp text before.png'/></figure>
+      <figure class='right'><img loading='lazy' src='images/hp text after.png'/></figure>
+    </div>
+
+    <div class='stage solitary'>
+      <figure><img loading='lazy' src='images/hp desktop.png'/></figure>
+    </div>
+
+  </section>
+
+  <section>
+    <h2>NYTimes Open Art Direction<span class='date'>2016-2018</span></h2>
+    <p>Art direction for public-facing blog about product, tech, and design work by teams at the Times.</p>
+    <p><a class='bigLink' href='https://open.nytimes.com'>Visit the website</a></p>
+
+    <div class='stage solitary'>
+      <figure><img loading='lazy' src='images/art 1.jpeg'/></figure>
+    </div>
+
+    <div class='stage solitary'>
+      <figure><img loading='lazy' src='images/art 2.jpeg'/></figure>
+    </div>
+
+    <div class='stage solitary'>
+      <figure><img loading='lazy' src='images/art 3.jpeg'/></figure>
+    </div>
+
+    <div class='stage solitary'>
+      <figure><img loading='lazy' src='images/art 4.gif'/></figure>
+    </div>
+
+    <div class='stage solitary'>
+      <figure><img loading='lazy' src='images/art 5.jpeg'/></figure>
+    </div>
+
+  </section>
+
+  <section>
+
+    <h2>NYTimes Push and Messaging<span class='date'>2016</span></h2>
+    <p>Shifted strategy and writing style for push notifications.</p>
+    <p><a class='bigLink' href='https://digiday.com/media/inside-new-york-times-new-push-notifications-team/'>Digiday about the changes</a></p>
+
+    <p>Experimented with new experiences on SMS and Facebook Messenger for the Rio Olympics and 2016 Presidential elections.</p>
+    <p><a class='bigLink' href='https://www.niemanlab.org/2016/08/inspired-by-purple-the-new-york-times-will-text-readers-behind-the-scenes-updates-about-the-olympics/'>Nieman Lab about the Rio SMS experiment</a></p>
+    <p><a class='bigLink' href='https://www.niemanlab.org/2016/10/the-new-york-times-is-using-a-facebook-messenger-bot-to-send-out-election-updates/'>Nieman Lab about the elections FB Messenger experiment</a></p>
+
+    <div class='stage solitary'>
+      <figure><img loading='lazy' src='images/messaging push 1.png'/></figure>
+    </div>
+
+    <div class='stage solitary'>
+      <figure><img loading='lazy' src='images/messaging push 2.png'/></figure>
+    </div>
+
+    <div class='stage pair'>
+      <figure class='left'><img loading='lazy' src='images/messaging fb 1.png'/></figure>
+      <figure class='right'><img loading='lazy' src='images/messaging fb 2.png'/></figure>
+    </div>
+
+  </section>
+
+  <section>
+
+    <h2>NYTimes Article Redesign<span class='date'>2013</span></h2>
+    <p>Redesign of the article page. Dynamic templates change based on media size, writer’s voice, ad configuration.</p>
+    <p><a class='bigLink' href='https://source.opennews.org/articles/behind-scenes-nyt-redesign/'>Interview with the team</a></p>
+    <p><a class='bigLink' href='https://www.theverge.com/2013/3/13/4094824/inside-the-new-york-times-web-redesign'>The Verge with more details</a></p>
+
+    <div class='stage solitary'>
+      <figure><img loading='lazy' src='images/nyt5 1.png'/></figure>
+    </div>
+
+    <div class='stage solitary'>
+      <figure><img loading='lazy' src='images/nyt5 2.png'/></figure>
+    </div>
+
+    <div class='stage solitary'>
+      <figure><img loading='lazy' src='images/nyt5 3.png'/></figure>
+    </div>
+
+    <div class='stage solitary'>
+      <figure><img loading='lazy' src='images/nyt5 4.jpg'/></figure>
+    </div>
+
+  </section>
+
+  <section>
+    <h2>Joshua Slater <span class='date'>2017</span></h2>
+    <p>Site design for Trinity Church conductor Joshua Slater.</p>
+    <p><a class='bigLink' href='https://www.joshuaslater.com'>Visit the website</a></p>
+
+    <div class='stage solitary'>
+      <figure><img loading='lazy' src='images/slater 1.png'/></figure>
+    </div>
+
+    <div class='stage solitary'>
+      <figure><img loading='lazy' src='images/slater 2.png'/></figure>
+    </div>
+
+    <div class='stage pair'>
+      <figure class='left'><img loading='lazy' src='images/slater 3.png'/></figure>
+      <figure class='right'><img loading='lazy' src='images/slater 4.png'/></figure>
+    </div>
+
+  </section>
+
+</main>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+<script>
+
+  function flip() {
+    $('figure.right').toggleClass('hide');
+    setTimeout(flip, 4000);
+  }
+
+  $(function() {
+    if ($(window).width() < 600) {
+      setTimeout(flip, 4000);
+    }
+  });
+</script>
+
+</body>
+
+</html>

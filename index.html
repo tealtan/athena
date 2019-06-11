@@ -1,65 +1,86 @@
 ---
-layout: base
-page-title: Allen Tan is…
+layout: default
 ---
 
-<div id="home">
-  
-  <header>
-    <div class="row">
-      <h1>Allen Tan <em>is&#8230;</em></h1>
-      <hr/>
-    </div>
-  </header>
-  
-  <div id="left-wing">
-    
-    <img src="/img/mags.png" id="assistant-editing-pic" class="hidden trigger"/>
-    
-    <div id="assistant-editing" class="hidden trigger">
-      <a href="editing.html#contents"><p id="contents">Assistant editor for <strong>Contents</strong>: a new 
-        magazine at the intersection of content strategy, online publishing, and new-school editorial work.</p></a>
-      <a href="editing.html#codex"><p id="codex">Assistant editor for <strong>Codex</strong>: the journal of typography, 
-        the shapes that form our words. Born out of John Boardley's blog, <em>I Love Typography</em>.</p></a>
-    </div>
-    
+<div class='home'>
+
+  <div class='dot-tone-portrait'>
+    <img src='images/face-bw.jpg'/>
   </div>
-  
-  <ul>
-    <li><a id="thinking" href="/thinking/drucker.html">thinking</a>, </li>
-    <li><a id="reading" href="/reading/publishing.html">reading</a>, </li><br/>
-    <li><a id="collecting" href="http://blog.tanmade.com">collecting</a>, </li>
-    <li><a id="designing" href="/designing">designing</a>, </li><br/>
-    <li><a id="editing" href="/editing">editing</a>, </li>
-    <li><a id="writing" href="/writing">writing</a>, </li>
-    <li><a id="making" href="/making/mnemosyne.html">making</a>, </li><br/>
-    <li>and <a id="playing" href="/bio.html">playing around</a></li>
-  </ul>
-  
-  <div id="right-wing">
-    
-    <div id="pinboard-highlights" class="hidden trigger">
-      <h3>Online:</h3><a id="view-highlights" href="/reading/publishing.html">View all highlights &rarr;</a> <br/><hr/>
-      <!-- <script language="javascript" src="http://pinboard.in//widgets/v1/linkroll/?user=tealtan&count=3&tag=books"></script> -->
-      <script language="javascript" src="http://pinboard.in//widgets/v1/linkroll/?user=tealtan&count=3&tag=publishing"></script>
-    </div>
-    
-    <div id="recent-work" class="hidden trigger">
-      
-      <h3>Recent / <a id="view-work" href="/designing.html">View all</a></h3>
-      
-      <a href="/designing/#serve"><img src="/img/serve1.jpg"/></a>
-      <a href="/designing/#serve">American Express: Serve &rarr;</a>
-      
-      <a href="/designing/#signal"><img src="/img/signal1.jpg"/></a>
-      <a href="/designing/#signal">Signal Ensemble &rarr;</a>
-      
-    </div>
-    
-    <p id="in-progress" class="hidden trigger">Nothing ready to show yet :)</p>
-    
+
+  <div class='home-content'>
+    <h1>Allen Tan</h1>
+    <span class='label'>Product designer, editor, strategist</span>
+
+    <span class='bigspan'>Currently at ACLU — ➀&nbsp;working on the 2020 elections, ➁&nbsp;making tools for organizers, and ➂&nbsp;?????.</span>
+
+    <p><a href='/work' class='bigLink'>See Selected Work</a></p>
+
+    <h2>Talks</h2>
+
+    <table class='elsewhere-list'>
+      <tbody>
+        <tr>
+          <td>Accelerate Good Global</td>
+          <td>San Francisco</td>
+        </tr>
+        <tr>
+          <td>Workshop on Twitter bots</td>
+          <td>The New School, New York</td>
+        </tr>
+        <tr>
+          <td>Typographische Gesellschaft</td>
+          <td>München</td>
+        </tr>
+        <tr>
+          <td>Panel at SRCCON</td>
+          <td>Philadelphia</td>
+        </tr>
+        <tr>
+          <td>Books and Browsers</td>
+          <td>San Francisco</td>
+        </tr>
+        <tr>
+          <td>Future of Web Design</td>
+          <td>New York</td>
+        </tr>
+        <tr>
+          <td>Panel at Tools of Change</td>
+          <td>New York</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Published</h2>
+
+    <table class='elsewhere-list'>
+      <tbody>
+        <tr>
+          <td>A List Apart</td>
+          <td><a href='https://alistapart.com/article/gardens-not-graves'>Gardens, Not Graves</a></td>
+        </tr>
+        <tr>
+          <td>Interview with Source</td>
+          <td><a href='https://source.opennews.org/articles/behind-scenes-nyt-redesign/'>Behind the Scenes on the NYT Redesign</a></td>
+        </tr>
+        <tr>
+          <td>Stet</td>
+          <td><a href='https://stet.editorially.com/articles/attention-rhythm-and-weight/'>Attention, Rhythm &amp; Weight</a></td>
+        </tr>
+        <tr>
+          <td>Contents Magazine</td>
+          <td><a href='https://contentsmagazine.com/articles/made-to-measure/'>Made to Measure</a></td>
+        </tr>
+      </tbody>
+    </table>
+
   </div>
-  
-  {% include footer.html %}
-  
+
+  <script type='text/javascript'>
+    if (document.documentElement.clientWidth > 600) {
+      document.body.appendChild(document.createElement("script")).src = '/js/breathing-halftone.js';
+      document.body.appendChild(document.createElement("script")).src = '/js/face.js';
+    }
+  </script>
+
 </div>
