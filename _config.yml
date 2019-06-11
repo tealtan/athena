@@ -10,10 +10,10 @@ title: Allen Tan
 email: hello@tanmade.com
 description: "Designer for NYT by day. Editor for Contents and Codex by night. Robolibrarybrain."
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://tanmade.com" # the base hostname & protocol for your site
+url: "https://tanmade.com" # the base hostname & protocol for your site
 permalink: "pretty"
 twitter_username: tealtan
-github_username:  tealtan
+github_username: tealtan
 
 # Build settings
 markdown: kramdown

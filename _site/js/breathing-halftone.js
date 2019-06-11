@@ -1,7 +1,7 @@
 /*!
  * Breathing Halftone
  * Images go whoa with lots of floaty dots
- * http://breathing-halftone.desandro.com
+ * https://breathing-halftone.desandro.com
  */
 
 ( function( window ) {
