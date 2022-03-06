@@ -3,11 +3,11 @@
   <channel>
     <title>Allen Tan</title>
     <description>Designer for NYT by day. Editor for Contents and Codex by night. Robolibrarybrain.</description>
-    <link>https://tanmade.com/</link>
-    <atom:link href="https://tanmade.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 03 Jan 2018 15:20:08 -0500</pubDate>
-    <lastBuildDate>Wed, 03 Jan 2018 15:20:08 -0500</lastBuildDate>
-    <generator>Jekyll v3.6.2</generator>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 06 Mar 2022 15:37:59 -0500</pubDate>
+    <lastBuildDate>Sun, 06 Mar 2022 15:37:59 -0500</lastBuildDate>
+    <generator>Jekyll v3.9.0</generator>
     
       <item>
         <title>Hell is other people</title>
@@ -26,8 +26,8 @@
 &lt;p&gt;What I’m saying is, we’ll know that platforms like Facebook or Twitter or YouTube are serious about protecting their users when they have Red Teams for the abuse of their algorithms.&lt;/p&gt;
 </description>
         <pubDate>Thu, 07 Dec 2017 00:00:00 -0500</pubDate>
-        <link>https://tanmade.com/notes/2017/12/07/hell-is-other-people/</link>
-        <guid isPermaLink="true">https://tanmade.com/notes/2017/12/07/hell-is-other-people/</guid>
+        <link>http://localhost:4000/notes/2017/12/07/hell-is-other-people/</link>
+        <guid isPermaLink="true">http://localhost:4000/notes/2017/12/07/hell-is-other-people/</guid>
         
         
         <category>notes</category>
@@ -82,8 +82,8 @@
 
 </description>
         <pubDate>Sat, 13 Feb 2016 00:00:00 -0500</pubDate>
-        <link>https://tanmade.com/notes/2016/02/13/table-manners/</link>
-        <guid isPermaLink="true">https://tanmade.com/notes/2016/02/13/table-manners/</guid>
+        <link>http://localhost:4000/notes/2016/02/13/table-manners/</link>
+        <guid isPermaLink="true">http://localhost:4000/notes/2016/02/13/table-manners/</guid>
         
         
         <category>notes</category>

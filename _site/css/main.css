@@ -320,6 +320,17 @@ pre {
         font-size: 28px; } }
   .home .home-content p {
     font-size: 16px; }
+  .home .home-content .work-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem; }
+    .home .home-content .work-grid a {
+      width: calc(50% - 0.5rem);
+      opacity: 1;
+      transition: opacity 0.6s; }
+    .home .home-content .work-grid a:hover {
+      opacity: 0.8; }
   .home .home-content .bigLink:after,
   .home .home-content td a:after {
     content: '❯';
